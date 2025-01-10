@@ -2,6 +2,9 @@ import { Box, Grid, Heading, Image, Text } from "@chakra-ui/react";
 import GeminiAppDev from "../Images/Certificates/Gemini-for app dev.png";
 import AWSCloudPractitioner from "../Images/Certificates/AWS-Certified-Cloud-Practitioner_badge.png";
 import MoshCode from "../Images/Certificates/Mosh-Code.png";
+import GoogleCloudCoreFundamnetals from "../Images/Certificates/Google-Cloud-Core-Infrastructure.png";
+import DevAppWithGoogleCloud from "../Images/Certificates/Developing-app-with -Google-Cloud.png";
+import GeminiDataAnalysis from "../Images/Certificates/Gemini-for-data-scientist and aanalyst.png";
 
 const Certifications = () => {
   const certifications = [
@@ -10,16 +13,24 @@ const Certifications = () => {
       img: AWSCloudPractitioner,
     },
     {
-      name: "Gemini for App Development",
-      img: GeminiAppDev,
+      name: "Google Cloud Fundamentals: Core Infrastructure",
+      img: GoogleCloudCoreFundamnetals,
+    },
+    {
+      name: "Developing Application with Google Cloud",
+      img: DevAppWithGoogleCloud,
+    },
+    {
+      name: "Gemini for Data Analysis",
+      img: GeminiDataAnalysis,
     },
     {
       name: "Sample Certificate 1",
       img: MoshCode,
     },
     {
-      name: "Sample Certificate 2",
-      img: "", // Add an image or fallback here
+      name: "Gemini for Data Analysis",
+      img: GeminiDataAnalysis,
     },
     {
       name: "Sample Certificate 3",
