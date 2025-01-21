@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <Box
       as="header"
-      bg="teal.600"
+       bg="#0a192f"
       color="white"
       px={8}
       py={4}

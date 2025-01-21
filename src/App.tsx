@@ -6,7 +6,6 @@ import ColorModeSwitch from "./components/ColorModeSwitch";
 import IntroSection from "./components/IntroSection";
 import Experience2 from "./components/Experience2";
 import Projects from "./components/Projects";
-import Certifications from "./components/TechStack";
 import TechStack from "./components/TechStack";
 import Navbar from "./components/Navbar";
 
