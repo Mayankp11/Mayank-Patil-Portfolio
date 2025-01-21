@@ -26,7 +26,7 @@ const IntroSection = () => {
           designing) exceptional digital experiences. Currently, I'm focused on
           creating accessible, human-centered products at [Your Company].
         </Text>
-        <Link href="#my-course" _hover={{ textDecoration: "none" }}>
+        <Link href="#about" _hover={{ textDecoration: "none" }}>
           <Button
             colorScheme="teal"
             size="lg"

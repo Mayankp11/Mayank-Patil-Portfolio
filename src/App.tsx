@@ -22,23 +22,23 @@ const App: React.FC = () => {
       overflow="auto" // Enable scrolling when content overflows
     >
       <ColorModeSwitch />
-      <Box m={0} p={0} w="100%">
+      <Box m={0} p={0} w="100%" id="home">
       <Navbar />
       <IntroSection />
     </Box>
 
-      <Box width="100%">
+      <Box width="100%" id="about">
         <About />
       </Box>
 
-      <Box mt={8} width="100%">
+      <Box mt={8} width="100%" id="experience">
         <Experience2 />
       </Box>
-      <Box width="100%">
+      <Box width="100%" id="projects">
         <Projects />
       </Box>
 
-      <Box>
+      <Box id="techstack" width="100%">
         <TechStack />
       </Box>
     </Flex>
