@@ -1,7 +1,6 @@
 import {
   Box,
   Flex,
-  Heading,
   HStack,
   Image,
   Text,

@@ -15,7 +15,6 @@ import {
     DrawerContent,
     DrawerCloseButton,
     VStack,
-    Button,
   } from "@chakra-ui/react";
   import { Global } from "@emotion/react";
   import { GiHamburgerMenu } from "react-icons/gi";

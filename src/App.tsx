@@ -8,6 +8,7 @@ import Experience2 from "./components/Experience2";
 import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
@@ -15,8 +16,6 @@ const App: React.FC = () => {
       direction="column" // Stack children vertically
       height="100vh" // Full height
       width="100vw" // Full width
-      // justifyContent="center" // Center horizontally
-      // alignItems="center" // Center vertically
       p={2} // Add padding for spacing
       gap={4} // Add spacing between children
       overflow="auto" // Enable scrolling when content overflows
@@ -40,6 +39,10 @@ const App: React.FC = () => {
 
       <Box id="techstack" width="100%">
         <TechStack />
+      </Box>
+
+      <Box id="contact" width="100%">
+        <Footer/>
       </Box>
     </Flex>
   );
