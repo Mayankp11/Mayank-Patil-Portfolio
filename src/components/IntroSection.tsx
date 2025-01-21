@@ -34,7 +34,7 @@ const IntroSection = () => {
             color="#0a192f"
             _hover={{ bg: "#52e0c6" }}
           >
-            Check out my course!
+            Check out my Portfolio!
           </Button>
         </Link>
       </VStack>

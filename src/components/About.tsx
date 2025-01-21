@@ -1,15 +1,22 @@
-import { Flex, Box, Image, Text, Grid, List, ListItem, Heading, ListIcon } from "@chakra-ui/react";
+import {
+  Flex,
+  Box,
+  Image,
+  Text,
+  Grid,
+  List,
+  ListItem,
+} from "@chakra-ui/react";
 import ProfilePhoto from "../images/ProfilePhoto/MP.LinkedInProfilePicture.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { PiDotOutlineFill } from "react-icons/pi";
 
 import { AiTwotoneMail } from "react-icons/ai";
 
 const About = () => {
   return (
     <Flex
-      direction="row"
+      direction={["column", "column", "row"]}
       width="100%"
       maxWidth="1200px"
       mx="auto"
@@ -19,16 +26,21 @@ const About = () => {
       gap={5}
       flexWrap="wrap"
     >
-      {/* Profile Picture */}
-
-      <Flex direction={"column"}>
+      <Flex
+        direction={["column", "column"]} // Stack on small screens, row on larger screens
+        alignItems="center" // Align items vertically in the center
+        justifyContent="center" // Center items horizontally
+        gap={4} // Add spacing between the image and the education box
+        p={4} // Padding around the Flex container
+      >
+        {/* Profile Picture */}
         <Box
           flex="0 1 auto"
           border="1px solid #ddd"
           borderRadius="12px"
           overflow="hidden"
-          p={1}
-          m={4}
+          p={0}
+          m={0}
           boxShadow="lg"
         >
           <Image
@@ -36,17 +48,36 @@ const About = () => {
             alt="Mayank Patil's Profile Picture"
             objectFit="cover"
             boxSize={["250px", "300px", "350px"]}
-            
           />
         </Box>
-        <Box mt={2} border={"4px solid #ddd"}  p={2} bg={"orange.50"}>
-        <Heading size="md" fontFamily={"mono"} color={"blackAlpha.900"}>Education :</Heading>
-        <Text mt={1} fontSize="sm" color="blackAlpha.900">
-          Master of Science in Computer Science</Text><Text fontSize="sm" color={"gray.600"}>The University of Texas at San Antonio</Text>
-          
-        <Text mt={2} fontSize="sm" color="blackAlpha.900">
-          Bachelor of Engineering in Computer Engineering</Text><Text fontSize="sm" color={"gray.600"}>Savitribai Phule Pune University </Text>
+        <Box
+          width="100%"
+          p={4}
+          borderRadius="12px"
+          boxShadow="lg"
+          bg="orange.50"
+        >
+          <Text
+            fontWeight="bold"
+            fontSize="lg"
+            color="teal.600"
+            fontFamily={"serif"}
+          >
+            Education
+          </Text>
+          <Text fontSize="md" color="gray.700" fontFamily={"serif"}>
+            Master of Science in Computer Science
+          </Text>
+          <Text fontSize="sm" color="gray.500" fontStyle={"italic"}>
+            University of Texas at San Antonio
+          </Text>
 
+          <Text fontSize="md" color="gray.700" mt={2} fontFamily={"serif"}>
+            Bachelor of Engineering in Computer Engineering
+          </Text>
+          <Text fontSize="sm" color="gray.500" fontStyle={"italic"}>
+            Savitribai Phule Pune University
+          </Text>
         </Box>
       </Flex>
 
@@ -66,7 +97,6 @@ const About = () => {
           fontWeight="bold"
           color="teal.600"
           textAlign={"center"}
-          fontFamily={"serif"}
         >
           About Me
         </Text>
@@ -115,28 +145,20 @@ const About = () => {
           Here are a few of the technologies I'm working with:
         </Text>
 
-        <Grid templateColumns="repeat(3, 1fr)" gap={1} mt={4}>
+        <Grid templateColumns="repeat(3, 1fr)" gap={4} mt={4}>
           <Box>
             <List spacing={0}>
               <ListItem fontSize="sm" color="teal.600">
-                <ListIcon as={PiDotOutlineFill} color="teal.600" />
                 Java
               </ListItem>
               <ListItem fontSize="sm" color="teal.600">
-                <ListIcon as={PiDotOutlineFill} color="teal.600" />
                 Spring Framework
               </ListItem>
               <ListItem fontSize="sm" color="teal.600">
-                <ListIcon as={PiDotOutlineFill} color="teal.600" />
                 REST APIs
               </ListItem>
               <ListItem fontSize="sm" color="teal.600">
-                <ListIcon as={PiDotOutlineFill} color="teal.600" />
                 Hibernate ORM
-              </ListItem>
-              <ListItem fontSize="sm" color="teal.600">
-              <ListIcon as={PiDotOutlineFill} color="teal.600" />
-                JWT
               </ListItem>
             </List>
           </Box>
@@ -144,21 +166,18 @@ const About = () => {
           <Box ml={1}>
             <List spacing={0}>
               <ListItem fontSize="sm" color="teal.600">
-                <ListIcon as={PiDotOutlineFill} color="teal.600" />
-                React
+                JWT
               </ListItem>
               <ListItem fontSize="sm" color="teal.600">
-                <ListIcon as={PiDotOutlineFill} color="teal.600" />
                 Google Gemini (AI/ML platform)
               </ListItem>
               <ListItem fontSize="sm" color="teal.600">
-                <ListIcon as={PiDotOutlineFill} color="teal.600" />
                 Big Query
               </ListItem>
             </List>
           </Box>
           {/* Third column */}
-          <Box ml={12}>
+          <Box ml={4}>
             <List spacing={0}>
               <ListItem fontSize="2xl" color="blue.600">
                 <a

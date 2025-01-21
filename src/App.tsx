@@ -2,9 +2,13 @@ import { Box, Flex } from "@chakra-ui/react";
 import React from "react";
 import About from "./components/About";
 import ColorModeSwitch from "./components/ColorModeSwitch";
-import Projects from "./components/Projects";
+
+import IntroSection from "./components/IntroSection";
 import Experience2 from "./components/Experience2";
-import Certifications from "./components/Certifications";
+import Projects from "./components/Projects";
+import Certifications from "./components/TechStack";
+import TechStack from "./components/TechStack";
+import Navbar from "./components/Navbar";
 
 const App: React.FC = () => {
   return (
@@ -19,19 +23,24 @@ const App: React.FC = () => {
       overflow="auto" // Enable scrolling when content overflows
     >
       <ColorModeSwitch />
-      {/* <Box width="100%">
+      <Box m={0} p={0} w="100%">
+      <Navbar />
+      <IntroSection />
+    </Box>
+
+      <Box width="100%">
         <About />
       </Box>
 
-      <Box mt={8} width="100%"> */}
-        {/* <WorkExperience /> */}
-        {/* <Experience2 />
+      <Box mt={8} width="100%">
+        <Experience2 />
       </Box>
       <Box width="100%">
         <Projects />
-      </Box> */}
+      </Box>
+
       <Box>
-        <Certifications />
+        <TechStack />
       </Box>
     </Flex>
   );
