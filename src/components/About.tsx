@@ -7,10 +7,10 @@ import {
   List,
   ListItem,
 } from "@chakra-ui/react";
-import ProfilePhoto from "../images/ProfilePhoto/MP.LinkedInProfilePicture.png";
+
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-
+import ProfilePhoto from "../Images/ProfilePhoto/MP.LinkedInProfilePicture.png"
 import { AiTwotoneMail } from "react-icons/ai";
 
 const About = () => {
