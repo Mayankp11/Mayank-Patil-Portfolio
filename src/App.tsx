@@ -8,6 +8,8 @@ import TechStack from "./components/TechStack";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+// trial for production
+
 const App: React.FC = () => {
   return (
     <Flex
