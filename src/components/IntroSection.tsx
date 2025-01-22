@@ -19,12 +19,12 @@ const IntroSection = () => {
           Mayank.
         </Heading>
         <Heading as="h2" size="xl" color="#8892b0">
-          I build things for the web.
+          I turn ideas into functional, user-friendly software
         </Heading>
         <Text fontSize="lg" color="#8892b0" maxW="600px">
-          I'm a software developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I'm focused on
-          creating accessible, human-centered products at [Your Company].
+          I'm a software developer passionate about creating reliable and
+          intuitive digital experiences. I focus on building accessible and
+          user-friendly products.
         </Text>
         <Link href="#about" _hover={{ textDecoration: "none" }}>
           <Button
