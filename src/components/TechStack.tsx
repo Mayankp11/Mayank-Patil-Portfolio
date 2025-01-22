@@ -6,16 +6,16 @@ import {
   Text,
   Tooltip,
 } from "@chakra-ui/react";
-import Java from "../Images/Certificates/JavaLogo.png";
-import Spring from "../Images/Certificates/SpringLogo.png";
-import TypeScript from "../Images/Certificates/TypeScriptLogo.png";
-import JavaScript from "../Images/Certificates/JavaScriptLogo.png";
-import React from "../Images/Certificates/ReactLogo.png";
-import MySql from "../Images/Certificates/MySqlLogo.png";
-import MongoDb from "../Images/Certificates/MongoDbLogo.png";
-import DSA from "../Images/Certificates/LeetCode_.png";
-import Python from "../Images/Certificates/Python.png";
-import AWS from "../Images/Certificates/AWS-Certified-Cloud-Practitioner_badge.png";
+import Java from "../images/Certificates/JavaLogo.png";
+import Spring from "../images/Certificates/SpringLogo.png";
+import TypeScript from "../images/Certificates/TypeScriptLogo.png";
+import JavaScript from "../images/Certificates/JavaScriptLogo.png";
+import React from "../images/Certificates/ReactLogo.png";
+import MySql from "../images/Certificates/MySqlLogo.png";
+import MongoDb from "../images/Certificates/MongoDbLogo.png";
+import DSA from "../images/Certificates/LeetCode_.png";
+import Python from "../images/Certificates/Python.png";
+import AWS from "../images/Certificates/AWS-Certified-Cloud-Practitioner_badge.png";
 
 const TechStack = () => {
   const certifications = [

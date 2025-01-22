@@ -10,7 +10,7 @@ import {
 
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import ProfilePhoto from "../Images/ProfilePhoto/MP.LinkedInProfilePicture.png"
+import ProfilePhoto from "../images/ProfilePhoto/MP.LinkedInProfilePicture.png"
 import { AiTwotoneMail } from "react-icons/ai";
 
 const About = () => {

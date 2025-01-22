@@ -15,12 +15,12 @@ import {
 } from "@chakra-ui/react";
 import { FaJava, FaDocker,FaGithub, FaReact, FaDatabase } from 'react-icons/fa';
 import LibraryManagementSystemImage from "../images/Projects/LibraryManagement2.png";
-import UserManagementImage from "../Images/Projects/UserManagement.png";
-import TranslateMate from "../Images/Projects/TranslateMate.png";
-import GameHub from "../Images/Projects/GameHub-home.png";
-import SparkCluster from "../Images/Projects/ApacheSparkCluster.png";
-import ServerlessApp from "../Images/Projects/ServerlessFirebase.png";
-import SoccerBigQuery from "../Images/Projects/BigQuerySoccerDataIngestion.png"
+import UserManagementImage from "../images/Projects/UserManagement.png";
+import TranslateMate from "../images/Projects/TranslateMate.png";
+import GameHub from "../images/Projects/GameHub-home.png";
+import SparkCluster from "../images/Projects/ApacheSparkCluster.png";
+import ServerlessApp from "../images/Projects/ServerlessFirebase.png";
+import SoccerBigQuery from "../images/Projects/BigQuerySoccerDataIngestion.png"
 import { SiApachespark, SiApachetomcat, SiChakraui, SiFirebase, SiGooglecloud, SiKubernetes, SiPostman, SiServerless, SiSpring, SiSpringboot, SiTypescript } from "react-icons/si";
 import { TbFileTypeCss, TbSql } from "react-icons/tb";
 import { FaAws } from "react-icons/fa6";
